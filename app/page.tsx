@@ -17,7 +17,7 @@ export default function Home() {
           >
             By{" "}
             <Image
-              src="/vercel.svg"
+              src="https://zaidalam.in/assets/img/parsonal-info/parson-img-3.jpg"
               alt="Vercel Logo"
               className="dark:invert"
               width={100}
