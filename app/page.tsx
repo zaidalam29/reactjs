@@ -2,6 +2,9 @@ import Image from "next/image";
 import Link from "next/link";
 
 export default function Home() {
+  const roundedImageStyle = {
+    borderRadius: "5%",
+  };
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
@@ -12,9 +15,10 @@ export default function Home() {
         <Image
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70]"
           src="/parson-img-3.jpg"
-          alt="Next.js Logo"
+          alt="Zaid Alam"
           width={180}
           height={37}
+          style={roundedImageStyle}
           priority
         />
       </div>
@@ -24,7 +28,7 @@ export default function Home() {
         <br />
       </p>
       <Link href="https://zaidalam.in" passHref target="_blank">
-        Visit Zaid Alams Website
+        Visit Zaid Alam Website
       </Link>
     </main>
   );
